@@ -1,0 +1,4109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard container Render Dashboard  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-jXbUNg bcqfPG"
+      >
+        <div
+          class="MuiGrid-root css-1alg1f7-MuiGrid-root"
+        >
+          <div
+            class="rs-picker rs-picker-daterange rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable"
+            style="height: 30px;"
+          >
+            <div
+              class="rs-input-group rs-input-group-inside"
+            >
+              <input
+                aria-haspopup="dialog"
+                autocomplete="off"
+                autocorrect="off"
+                class="rs-date-range-input rs-input"
+                id="rs-:r0:"
+                inputmode="text"
+                placeholder="Select date range"
+                size="27"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <span
+                class="rs-input-group-addon"
+              >
+                <svg
+                  aria-hidden="true"
+                  aria-label="calendar"
+                  class="rs-picker-caret-icon rs-icon rs-icon"
+                  data-category="legacy"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="0 0 14 14"
+                  width="1em"
+                >
+                  <path
+                    d="M1 4v8.5a.5.5 0 00.5.5H8c0-.128.049-.256.146-.354.555-.555.854-1.6.854-3.146a.5.5 0 01.621-.485l.119.03A2.623 2.623 0 0012.999 6.5V4h-12zm3-2h6V0h1v2h1.5A1.5 1.5 0 0114 3.5v3a3.623 3.623 0 01-4.015 3.603c-.064 1.245-.335 2.212-.831 2.898H12.5a.5.5 0 00.5-.5v-2a.5.5 0 011 0v2a1.5 1.5 0 01-1.5 1.5h-11a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 011.5-1.5H3v-2h1v2zm5 4V5h1v1h2v1h-2v1H9V7H7v2h1v1H7v2H6v-2H4v2H3v-2H1V9h2V7H1V6h2V5h1v1h2V5h1v1h2zM6 9V7H4v2h2z"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-169orvg-MuiButtonBase-root-MuiButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <img
+              alt="cms add"
+              src="cms-add.svg"
+            />
+            <div
+              style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 17px; letter-spacing: 0em; text-align: left; color: rgb(255, 255, 255);"
+            >
+              Create Case
+            </div>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="MuiBox-root css-8aw1p5"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item css-1hdwnzu-MuiGrid-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+              height="24px"
+              tabindex="0"
+              type="button"
+              width="24px"
+            >
+              <img
+                alt="Open"
+                src="cms-info.svg"
+              />
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              style="font-family: Inter; font-size: 18px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; color: rgb(27, 79, 145); margin-top: 8px;"
+            >
+              Case Status
+            </div>
+          </div>
+          <div
+            class="sc-gsFSXq iKSfXI"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-message.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Open
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-search.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Under Review
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-time.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  In Progress
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-pause.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  On Hold
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-ca0sxd-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-escalated.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Escalated
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root css-qphxro-MuiGrid-root"
+            />
+            <div
+              class="MuiGrid-root css-a4mc9z-MuiGrid-root"
+            />
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-closed.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Closed
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-reopened.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Reopened
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-ca0sxd-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                  height="18px"
+                  tabindex="0"
+                  type="button"
+                  width="18px"
+                >
+                  <img
+                    alt="Open"
+                    src="cms-cancel.svg"
+                  />
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+                >
+                  Cancelled
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+              >
+                <div
+                  style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-rzp7rz"
+        >
+          <div
+            class="sc-imWYAI iRsYMe"
+          >
+            <div>
+              <div
+                class="MuiGrid-root MuiGrid-container css-1v50x9g-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-1ghifmp-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1osj8n2-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-8l7y4k-MuiFormControl-root-MuiTextField-root"
+                      >
+                        <div
+                          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-8j6b76-MuiInputBase-root-MuiOutlinedInput-root"
+                        >
+                          <div
+                            class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1mzu5uj-MuiInputAdornment-root"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                            <button
+                              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
+                              tabindex="0"
+                              type="button"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+                                data-testid="SearchIcon"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+                                />
+                              </svg>
+                              <span
+                                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                              />
+                            </button>
+                          </div>
+                          <input
+                            aria-invalid="false"
+                            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1ua80n0-MuiInputBase-input-MuiOutlinedInput-input"
+                            id=":r2:"
+                            placeholder="Search Case ID"
+                            type="text"
+                            value=""
+                          />
+                          <fieldset
+                            aria-hidden="true"
+                            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                          >
+                            <legend
+                              class="css-ihdtdm"
+                            >
+                              <span
+                                class="notranslate"
+                              >
+                                ​
+                              </span>
+                            </legend>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                    >
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+                        style="color: rgb(27, 79, 145); margin-left: 10px;"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <img
+                          alt="Filter Icon"
+                          src="ffilter.png"
+                          style="width: 20px;"
+                        />
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                          style="color: rgb(27, 79, 145); margin-left: 0px; text-transform: capitalize; text-decoration: underline;"
+                        >
+                          Filter
+                        </p>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+                >
+                  <div
+                    class="sc-kAyceB bCRrU"
+                    style="flex-direction: row; row-gap: 0; justify-content: flex-end;"
+                  >
+                    <div
+                      style="display: flex; gap: 4px; align-items: center; justify-content: center; border: 1px solid grey; border-radius: 8px;"
+                    >
+                      <span
+                        style="font-size: 14px; font-family: Inter; margin-left: 5px; margin-top: -3px;"
+                      >
+                        Records Per Page
+                      </span>
+                      <div
+                        class="MuiFormControl-root MuiTextField-root css-a8q1hx-MuiFormControl-root-MuiTextField-root"
+                      >
+                        <div
+                          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                        >
+                          <div
+                            aria-controls=":r5:"
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="recordsPerPage"
+                            class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                            id="recordsPerPage"
+                            role="combobox"
+                            tabindex="0"
+                          >
+                            10
+                          </div>
+                          <input
+                            aria-hidden="true"
+                            aria-invalid="false"
+                            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                            tabindex="-1"
+                            value="10"
+                          />
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                            data-testid="ArrowDropDownIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M7 10l5 5 5-5z"
+                            />
+                          </svg>
+                          <fieldset
+                            aria-hidden="true"
+                            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                          >
+                            <legend
+                              class="css-ihdtdm"
+                            >
+                              <span
+                                class="notranslate"
+                              >
+                                ​
+                              </span>
+                            </legend>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ag-theme-alpine"
+                style="min-height: 90px; height: calc(100vh - 348px); width: calc(100vw - 100px); font-size: x-small;"
+              >
+                <div
+                  style="height: 100%;"
+                >
+                  <!-- AG Grid -->
+                  <div
+                    class="ag-root-wrapper ag-ltr ag-layout-normal"
+                    role="presentation"
+                  >
+                    <div
+                      class="ag-root-wrapper-body ag-focus-managed ag-layout-normal"
+                      role="presentation"
+                    >
+                      <div
+                        class="ag-tab-guard ag-tab-guard-top"
+                        role="presentation"
+                        tabindex="0"
+                      />
+                      <!-- AG Grid Body -->
+                      <div
+                        aria-colcount="7"
+                        aria-rowcount="1"
+                        class="ag-root ag-unselectable ag-layout-normal"
+                        role="grid"
+                      >
+                        <div
+                          class="ag-header ag-pivot-off"
+                          role="presentation"
+                          style="height: 41px; min-height: 41px;"
+                        >
+                          <div
+                            class="ag-pinned-left-header ag-hidden"
+                            role="presentation"
+                            style="width: 0px; min-width: 0px; max-width: 0px;"
+                          >
+                            <div
+                              aria-rowindex="1"
+                              class="ag-header-row ag-header-row-column"
+                              role="row"
+                              style="height: 40px; top: 0px; width: 0px;"
+                            />
+                          </div>
+                          <div
+                            class="ag-header-viewport "
+                            role="presentation"
+                          >
+                            <div
+                              class="ag-header-container"
+                              role="rowgroup"
+                              style="width: 1150px;"
+                            >
+                              <div
+                                aria-rowindex="1"
+                                class="ag-header-row ag-header-row-column"
+                                role="row"
+                                style="height: 40px; top: 0px; width: 1150px;"
+                              >
+                                <div
+                                  aria-colindex="1"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="caseId"
+                                  role="columnheader"
+                                  style="left: 0px; width: 140px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-4-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Case Id
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="2"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="status"
+                                  role="columnheader"
+                                  style="left: 140px; width: 160px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-5-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Status
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="3"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="caseType"
+                                  role="columnheader"
+                                  style="left: 300px; width: 170px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-6-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Requst Type
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="4"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="category"
+                                  role="columnheader"
+                                  style="left: 470px; width: 150px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-7-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Category
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="5"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="subCategory"
+                                  role="columnheader"
+                                  style="left: 620px; width: 160px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-8-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Sub Category
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="6"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="createdDate"
+                                  role="columnheader"
+                                  style="left: 780px; width: 150px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-9-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Created On
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  aria-colindex="7"
+                                  class="ag-header-cell ag-focus-managed"
+                                  col-id="caseOwner"
+                                  role="columnheader"
+                                  style="left: 930px; width: 220px;"
+                                  tabindex="-1"
+                                >
+                                  <div
+                                    class="ag-header-cell-resize ag-hidden"
+                                    role="presentation"
+                                  />
+                                  <div
+                                    aria-hidden="true"
+                                    class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                    role="presentation"
+                                  >
+                                    
+                
+                                    <div
+                                      class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    />
+                                    
+                
+                                    <div
+                                      class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                      ref="eWrapper"
+                                      role="presentation"
+                                    >
+                                      
+                    
+                                      <input
+                                        class="ag-input-field-input ag-checkbox-input"
+                                        id="ag-10-input"
+                                        ref="eInput"
+                                        tabindex="-1"
+                                        type="checkbox"
+                                      />
+                                      
+                
+                                    </div>
+                                    
+            
+                                  </div>
+                                  <div
+                                    class="ag-header-cell-comp-wrapper"
+                                    role="presentation"
+                                  >
+                                    <div
+                                      class="ag-cell-label-container"
+                                      role="presentation"
+                                    >
+                                      
+            
+                                      
+            
+                                      <div
+                                        class="ag-header-cell-label"
+                                        ref="eLabel"
+                                        role="presentation"
+                                      >
+                                        
+                
+                                        <span
+                                          class="ag-header-cell-text"
+                                          ref="eText"
+                                        >
+                                          Case Owner
+                                        </span>
+                                        
+                
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                          ref="eFilter"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-filter"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+                
+                                        <!--AG-SORT-INDICATOR-->
+                                        <span
+                                          class="ag-sort-indicator-container"
+                                          ref="eSortIndicator"
+                                        >
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                            ref="eSortOrder"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                            ref="eSortAsc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                            ref="eSortDesc"
+                                          />
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                            ref="eSortMixed"
+                                          >
+                                            <span
+                                              class="ag-icon ag-icon-none"
+                                              role="presentation"
+                                              unselectable="on"
+                                            />
+                                          </span>
+                                          
+            
+                                          <span
+                                            aria-hidden="true"
+                                            class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                            ref="eSortNone"
+                                          />
+                                          
+        
+                                        </span>
+                                        
+            
+                                      </div>
+                                      
+        
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ag-pinned-right-header ag-hidden"
+                            role="presentation"
+                            style="width: 0px; min-width: 0px; max-width: 0px;"
+                          >
+                            <div
+                              aria-rowindex="1"
+                              class="ag-header-row ag-header-row-column"
+                              role="row"
+                              style="height: 40px; top: 0px; width: 0px;"
+                            />
+                          </div>
+                        </div>
+                        <!-- AG Pinned Top -->
+                        <div
+                          class="ag-floating-top ag-selectable"
+                          role="presentation"
+                          style="height: 0px; min-height: 0; display: none; overflow-y: hidden;"
+                        >
+                          <!-- AG Row Container topLeft -->
+                          <div
+                            class="ag-pinned-left-floating-top ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container topCenter -->
+                          <div
+                            class="ag-floating-top-viewport"
+                            role="presentation"
+                          >
+                            <div
+                              class="ag-floating-top-container"
+                              role="presentation"
+                              style="width: 1150px;"
+                            />
+                          </div>
+                          <!-- AG Row Container topRight -->
+                          <div
+                            class="ag-pinned-right-floating-top ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container topFullWidth -->
+                          <div
+                            class="ag-floating-top-full-width-container"
+                            role="presentation"
+                          />
+                        </div>
+                        <!-- AG Middle -->
+                        <div
+                          class="ag-body-viewport ag-row-no-animation ag-layout-normal ag-selectable"
+                          role="presentation"
+                        >
+                          <!-- AG Row Container left -->
+                          <div
+                            class="ag-pinned-left-cols-container ag-hidden"
+                            role="presentation"
+                            style="height: 1px;"
+                          />
+                          <!-- AG Row Container center -->
+                          <div
+                            class="ag-center-cols-clipper"
+                            role="presentation"
+                            style="height: 1px;"
+                          >
+                            <div
+                              class="ag-center-cols-viewport"
+                              role="presentation"
+                              style="height: 100%;"
+                            >
+                              <div
+                                class="ag-center-cols-container"
+                                role="presentation"
+                                style="height: 1px; width: 1150px;"
+                              />
+                            </div>
+                          </div>
+                          <!-- AG Row Container right -->
+                          <div
+                            class="ag-pinned-right-cols-container ag-hidden"
+                            role="presentation"
+                            style="height: 1px;"
+                          />
+                          <!-- AG Row Container fullWidth -->
+                          <div
+                            class="ag-full-width-container"
+                            role="presentation"
+                            style="height: 1px;"
+                          />
+                        </div>
+                        <!-- AG Sticky Top -->
+                        <div
+                          class="ag-sticky-top ag-selectable"
+                          role="presentation"
+                          style="height: 0px; top: 41px; width: 100%;"
+                        >
+                          <!-- AG Row Container stickyTopLeft -->
+                          <div
+                            class="ag-pinned-left-sticky-top ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container stickyTopCenter -->
+                          <div
+                            class="ag-sticky-top-viewport"
+                            role="presentation"
+                          >
+                            <div
+                              class="ag-sticky-top-container"
+                              role="presentation"
+                              style="width: 1150px;"
+                            />
+                          </div>
+                          <!-- AG Row Container stickyTopRight -->
+                          <div
+                            class="ag-pinned-right-sticky-top ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container stickyTopFullWidth -->
+                          <div
+                            class="ag-sticky-top-full-width-container"
+                            role="presentation"
+                          />
+                        </div>
+                        <!-- AG Pinned Bottom -->
+                        <div
+                          class="ag-floating-bottom ag-selectable"
+                          role="presentation"
+                          style="height: 0px; min-height: 0; display: none; overflow-y: hidden;"
+                        >
+                          <!-- AG Row Container bottomLeft -->
+                          <div
+                            class="ag-pinned-left-floating-bottom ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container bottomCenter -->
+                          <div
+                            class="ag-floating-bottom-viewport"
+                            role="presentation"
+                          >
+                            <div
+                              class="ag-floating-bottom-container"
+                              role="presentation"
+                              style="width: 1150px;"
+                            />
+                          </div>
+                          <!-- AG Row Container bottomRight -->
+                          <div
+                            class="ag-pinned-right-floating-bottom ag-hidden"
+                            role="presentation"
+                          />
+                          <!-- AG Row Container bottomFullWidth -->
+                          <div
+                            class="ag-floating-bottom-full-width-container"
+                            role="presentation"
+                          />
+                        </div>
+                        <!-- AG Fake Horizontal Scroll -->
+                        <div
+                          aria-hidden="true"
+                          class="ag-body-horizontal-scroll ag-hidden"
+                          style="height: 0px; max-height: 0px; min-height: 0px;"
+                        >
+                          
+            
+                          <div
+                            class="ag-horizontal-left-spacer"
+                            ref="eLeftSpacer"
+                            style="width: 0px; max-width: 0px; min-width: 0px;"
+                          />
+                          
+            
+                          <div
+                            class="ag-body-horizontal-scroll-viewport"
+                            ref="eViewport"
+                            style="height: 0px; max-height: 0px; min-height: 0px;"
+                          >
+                            
+                
+                            <div
+                              class="ag-body-horizontal-scroll-container"
+                              ref="eContainer"
+                              style="height: 0px; max-height: 0px; min-height: 0px; width: 1150px;"
+                            />
+                            
+            
+                          </div>
+                          
+            
+                          <div
+                            class="ag-horizontal-right-spacer"
+                            ref="eRightSpacer"
+                            style="width: 0px; max-width: 0px; min-width: 0px;"
+                          />
+                          
+        
+                        </div>
+                        <!-- AG Overlay Wrapper -->
+                        <div
+                          aria-hidden="true"
+                          class="ag-overlay"
+                        >
+                          
+            
+                          <div
+                            class="ag-overlay-panel"
+                          >
+                            
+                
+                            <div
+                              class="ag-overlay-wrapper ag-layout-normal ag-overlay-no-rows-wrapper"
+                              ref="eOverlayWrapper"
+                            >
+                              <span>
+                                There are no details found...
+                              </span>
+                            </div>
+                            
+            
+                          </div>
+                          
+        
+                        </div>
+                      </div>
+                      <div
+                        class="ag-tab-guard ag-tab-guard-bottom"
+                        role="presentation"
+                        tabindex="0"
+                      />
+                    </div>
+                    <div
+                      class="ag-paging-panel ag-unselectable ag-hidden"
+                      id="ag-3"
+                    >
+                      
+                
+                      <span
+                        class="ag-paging-row-summary-panel"
+                        role="status"
+                      >
+                        
+                    
+                        <span
+                          class="ag-paging-row-summary-panel-number"
+                          id="ag-3-first-row"
+                          ref="lbFirstRowOnPage"
+                        />
+                        
+                    
+                        <span
+                          id="ag-3-to"
+                        >
+                          to
+                        </span>
+                        
+                    
+                        <span
+                          class="ag-paging-row-summary-panel-number"
+                          id="ag-3-last-row"
+                          ref="lbLastRowOnPage"
+                        />
+                        
+                    
+                        <span
+                          id="ag-3-of"
+                        >
+                          of
+                        </span>
+                        
+                    
+                        <span
+                          class="ag-paging-row-summary-panel-number"
+                          id="ag-3-row-count"
+                          ref="lbRecordCount"
+                        />
+                        
+                
+                      </span>
+                      
+                
+                      <span
+                        class="ag-paging-page-summary-panel"
+                        role="presentation"
+                      >
+                        
+                    
+                        <div
+                          aria-label="First Page"
+                          class="ag-paging-button"
+                          ref="btFirst"
+                          role="button"
+                        >
+                          <span
+                            class="ag-icon ag-icon-first"
+                            role="presentation"
+                            unselectable="on"
+                          />
+                        </div>
+                        
+                    
+                        <div
+                          aria-label="Previous Page"
+                          class="ag-paging-button"
+                          ref="btPrevious"
+                          role="button"
+                        >
+                          <span
+                            class="ag-icon ag-icon-previous"
+                            role="presentation"
+                            unselectable="on"
+                          />
+                        </div>
+                        
+                    
+                        <span
+                          class="ag-paging-description"
+                          role="status"
+                        >
+                          
+                        
+                          <span
+                            id="ag-3-start-page"
+                          >
+                            Page
+                          </span>
+                          
+                        
+                          <span
+                            class="ag-paging-number"
+                            id="ag-3-start-page-number"
+                            ref="lbCurrent"
+                          />
+                          
+                        
+                          <span
+                            id="ag-3-of-page"
+                          >
+                            of
+                          </span>
+                          
+                        
+                          <span
+                            class="ag-paging-number"
+                            id="ag-3-of-page-number"
+                            ref="lbTotal"
+                          />
+                          
+                    
+                        </span>
+                        
+                    
+                        <div
+                          aria-label="Next Page"
+                          class="ag-paging-button"
+                          ref="btNext"
+                          role="button"
+                        >
+                          <span
+                            class="ag-icon ag-icon-next"
+                            role="presentation"
+                            unselectable="on"
+                          />
+                        </div>
+                        
+                    
+                        <div
+                          aria-label="Last Page"
+                          class="ag-paging-button"
+                          ref="btLast"
+                          role="button"
+                        >
+                          <span
+                            class="ag-icon ag-icon-last"
+                            role="presentation"
+                            unselectable="on"
+                          />
+                        </div>
+                        
+                
+                      </span>
+                      
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-container css-k8yruk-MuiGrid-root"
+              >
+                <div
+                  style="display: flex; align-items: center;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-jXbUNg bcqfPG"
+    >
+      <div
+        class="MuiGrid-root css-1alg1f7-MuiGrid-root"
+      >
+        <div
+          class="rs-picker rs-picker-daterange rs-picker-default rs-picker-toggle-wrapper rs-picker-cleanable"
+          style="height: 30px;"
+        >
+          <div
+            class="rs-input-group rs-input-group-inside"
+          >
+            <input
+              aria-haspopup="dialog"
+              autocomplete="off"
+              autocorrect="off"
+              class="rs-date-range-input rs-input"
+              id="rs-:r0:"
+              inputmode="text"
+              placeholder="Select date range"
+              size="27"
+              spellcheck="false"
+              type="text"
+              value=""
+            />
+            <span
+              class="rs-input-group-addon"
+            >
+              <svg
+                aria-hidden="true"
+                aria-label="calendar"
+                class="rs-picker-caret-icon rs-icon rs-icon"
+                data-category="legacy"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="0 0 14 14"
+                width="1em"
+              >
+                <path
+                  d="M1 4v8.5a.5.5 0 00.5.5H8c0-.128.049-.256.146-.354.555-.555.854-1.6.854-3.146a.5.5 0 01.621-.485l.119.03A2.623 2.623 0 0012.999 6.5V4h-12zm3-2h6V0h1v2h1.5A1.5 1.5 0 0114 3.5v3a3.623 3.623 0 01-4.015 3.603c-.064 1.245-.335 2.212-.831 2.898H12.5a.5.5 0 00.5-.5v-2a.5.5 0 011 0v2a1.5 1.5 0 01-1.5 1.5h-11a1.5 1.5 0 01-1.5-1.5v-9a1.5 1.5 0 011.5-1.5H3v-2h1v2zm5 4V5h1v1h2v1h-2v1H9V7H7v2h1v1H7v2H6v-2H4v2H3v-2H1V9h2V7H1V6h2V5h1v1h2V5h1v1h2zM6 9V7H4v2h2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-169orvg-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            alt="cms add"
+            src="cms-add.svg"
+          />
+          <div
+            style="font-family: Inter; font-size: 16px; font-weight: 500; line-height: 17px; letter-spacing: 0em; text-align: left; color: rgb(255, 255, 255);"
+          >
+            Create Case
+          </div>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="MuiBox-root css-8aw1p5"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-1hdwnzu-MuiGrid-root"
+        >
+          <button
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+            height="24px"
+            tabindex="0"
+            type="button"
+            width="24px"
+          >
+            <img
+              alt="Open"
+              src="cms-info.svg"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            style="font-family: Inter; font-size: 18px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; color: rgb(27, 79, 145); margin-top: 8px;"
+          >
+            Case Status
+          </div>
+        </div>
+        <div
+          class="sc-gsFSXq iKSfXI"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-message.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Open
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-search.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Under Review
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-time.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                In Progress
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-pause.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                On Hold
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-ca0sxd-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-escalated.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Escalated
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root css-qphxro-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root css-a4mc9z-MuiGrid-root"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-closed.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Closed
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-1xzeg7f-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-reopened.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Reopened
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-2 MuiGrid-grid-md-2 MuiGrid-grid-lg-2 css-ca0sxd-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item css-1uivzz3-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1ef57xa-MuiButtonBase-root-MuiIconButton-root"
+                height="18px"
+                tabindex="0"
+                type="button"
+                width="18px"
+              >
+                <img
+                  alt="Open"
+                  src="cms-cancel.svg"
+                />
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left; margin-top: 6px;"
+              >
+                Cancelled
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item css-zat1ya-MuiGrid-root"
+            >
+              <div
+                style="width: 25px; height: 23px; border-radius: 4px; text-align: center; background-color: rgba(27, 79, 145, 0.102); padding: 2px;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-rzp7rz"
+      >
+        <div
+          class="sc-imWYAI iRsYMe"
+        >
+          <div>
+            <div
+              class="MuiGrid-root MuiGrid-container css-1v50x9g-MuiGrid-root"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container css-1ghifmp-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1osj8n2-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-8l7y4k-MuiFormControl-root-MuiTextField-root"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-8j6b76-MuiInputBase-root-MuiOutlinedInput-root"
+                      >
+                        <div
+                          class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-1mzu5uj-MuiInputAdornment-root"
+                        >
+                          <span
+                            class="notranslate"
+                          >
+                            ​
+                          </span>
+                          <button
+                            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-ptiqhd-MuiSvgIcon-root"
+                              data-testid="SearchIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                        <input
+                          aria-invalid="false"
+                          class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1ua80n0-MuiInputBase-input-MuiOutlinedInput-input"
+                          id=":r2:"
+                          placeholder="Search Case ID"
+                          type="text"
+                          value=""
+                        />
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            class="css-ihdtdm"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+                  >
+                    <button
+                      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall css-1knaqv7-MuiButtonBase-root-MuiButton-root"
+                      style="color: rgb(27, 79, 145); margin-left: 10px;"
+                      tabindex="0"
+                      type="button"
+                    >
+                      <img
+                        alt="Filter Icon"
+                        src="ffilter.png"
+                        style="width: 20px;"
+                      />
+                      <p
+                        class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                        style="color: rgb(27, 79, 145); margin-left: 0px; text-transform: capitalize; text-decoration: underline;"
+                      >
+                        Filter
+                      </p>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+              >
+                <div
+                  class="sc-kAyceB bCRrU"
+                  style="flex-direction: row; row-gap: 0; justify-content: flex-end;"
+                >
+                  <div
+                    style="display: flex; gap: 4px; align-items: center; justify-content: center; border: 1px solid grey; border-radius: 8px;"
+                  >
+                    <span
+                      style="font-size: 14px; font-family: Inter; margin-left: 5px; margin-top: -3px;"
+                    >
+                      Records Per Page
+                    </span>
+                    <div
+                      class="MuiFormControl-root MuiTextField-root css-a8q1hx-MuiFormControl-root-MuiTextField-root"
+                    >
+                      <div
+                        class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                      >
+                        <div
+                          aria-controls=":r5:"
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="recordsPerPage"
+                          class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                          id="recordsPerPage"
+                          role="combobox"
+                          tabindex="0"
+                        >
+                          10
+                        </div>
+                        <input
+                          aria-hidden="true"
+                          aria-invalid="false"
+                          class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                          tabindex="-1"
+                          value="10"
+                        />
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                          data-testid="ArrowDropDownIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M7 10l5 5 5-5z"
+                          />
+                        </svg>
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            class="css-ihdtdm"
+                          >
+                            <span
+                              class="notranslate"
+                            >
+                              ​
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ag-theme-alpine"
+              style="min-height: 90px; height: calc(100vh - 348px); width: calc(100vw - 100px); font-size: x-small;"
+            >
+              <div
+                style="height: 100%;"
+              >
+                <!-- AG Grid -->
+                <div
+                  class="ag-root-wrapper ag-ltr ag-layout-normal"
+                  role="presentation"
+                >
+                  <div
+                    class="ag-root-wrapper-body ag-focus-managed ag-layout-normal"
+                    role="presentation"
+                  >
+                    <div
+                      class="ag-tab-guard ag-tab-guard-top"
+                      role="presentation"
+                      tabindex="0"
+                    />
+                    <!-- AG Grid Body -->
+                    <div
+                      aria-colcount="7"
+                      aria-rowcount="1"
+                      class="ag-root ag-unselectable ag-layout-normal"
+                      role="grid"
+                    >
+                      <div
+                        class="ag-header ag-pivot-off"
+                        role="presentation"
+                        style="height: 41px; min-height: 41px;"
+                      >
+                        <div
+                          class="ag-pinned-left-header ag-hidden"
+                          role="presentation"
+                          style="width: 0px; min-width: 0px; max-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="height: 40px; top: 0px; width: 0px;"
+                          />
+                        </div>
+                        <div
+                          class="ag-header-viewport "
+                          role="presentation"
+                        >
+                          <div
+                            class="ag-header-container"
+                            role="rowgroup"
+                            style="width: 1150px;"
+                          >
+                            <div
+                              aria-rowindex="1"
+                              class="ag-header-row ag-header-row-column"
+                              role="row"
+                              style="height: 40px; top: 0px; width: 1150px;"
+                            >
+                              <div
+                                aria-colindex="1"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="caseId"
+                                role="columnheader"
+                                style="left: 0px; width: 140px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-4-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Case Id
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="2"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="status"
+                                role="columnheader"
+                                style="left: 140px; width: 160px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-5-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Status
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="3"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="caseType"
+                                role="columnheader"
+                                style="left: 300px; width: 170px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-6-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Requst Type
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="4"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="category"
+                                role="columnheader"
+                                style="left: 470px; width: 150px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-7-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Category
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="5"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="subCategory"
+                                role="columnheader"
+                                style="left: 620px; width: 160px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-8-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Sub Category
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="6"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="createdDate"
+                                role="columnheader"
+                                style="left: 780px; width: 150px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-9-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Created On
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                aria-colindex="7"
+                                class="ag-header-cell ag-focus-managed"
+                                col-id="caseOwner"
+                                role="columnheader"
+                                style="left: 930px; width: 220px;"
+                                tabindex="-1"
+                              >
+                                <div
+                                  class="ag-header-cell-resize ag-hidden"
+                                  role="presentation"
+                                />
+                                <div
+                                  aria-hidden="true"
+                                  class="ag-labeled ag-label-align-right ag-checkbox ag-input-field ag-header-select-all ag-hidden"
+                                  role="presentation"
+                                >
+                                  
+                
+                                  <div
+                                    class="ag-input-field-label ag-label ag-hidden ag-checkbox-label"
+                                    ref="eLabel"
+                                    role="presentation"
+                                  />
+                                  
+                
+                                  <div
+                                    class="ag-wrapper ag-input-wrapper ag-checkbox-input-wrapper"
+                                    ref="eWrapper"
+                                    role="presentation"
+                                  >
+                                    
+                    
+                                    <input
+                                      class="ag-input-field-input ag-checkbox-input"
+                                      id="ag-10-input"
+                                      ref="eInput"
+                                      tabindex="-1"
+                                      type="checkbox"
+                                    />
+                                    
+                
+                                  </div>
+                                  
+            
+                                </div>
+                                <div
+                                  class="ag-header-cell-comp-wrapper"
+                                  role="presentation"
+                                >
+                                  <div
+                                    class="ag-cell-label-container"
+                                    role="presentation"
+                                  >
+                                    
+            
+                                    
+            
+                                    <div
+                                      class="ag-header-cell-label"
+                                      ref="eLabel"
+                                      role="presentation"
+                                    >
+                                      
+                
+                                      <span
+                                        class="ag-header-cell-text"
+                                        ref="eText"
+                                      >
+                                        Case Owner
+                                      </span>
+                                      
+                
+                                      <span
+                                        aria-hidden="true"
+                                        class="ag-header-icon ag-header-label-icon ag-filter-icon ag-hidden"
+                                        ref="eFilter"
+                                      >
+                                        <span
+                                          class="ag-icon ag-icon-filter"
+                                          role="presentation"
+                                          unselectable="on"
+                                        />
+                                      </span>
+                                      
+                
+                                      <!--AG-SORT-INDICATOR-->
+                                      <span
+                                        class="ag-sort-indicator-container"
+                                        ref="eSortIndicator"
+                                      >
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-order ag-hidden"
+                                          ref="eSortOrder"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-ascending-icon ag-hidden"
+                                          ref="eSortAsc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-descending-icon ag-hidden"
+                                          ref="eSortDesc"
+                                        />
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-mixed-icon ag-hidden"
+                                          ref="eSortMixed"
+                                        >
+                                          <span
+                                            class="ag-icon ag-icon-none"
+                                            role="presentation"
+                                            unselectable="on"
+                                          />
+                                        </span>
+                                        
+            
+                                        <span
+                                          aria-hidden="true"
+                                          class="ag-sort-indicator-icon ag-sort-none-icon ag-hidden"
+                                          ref="eSortNone"
+                                        />
+                                        
+        
+                                      </span>
+                                      
+            
+                                    </div>
+                                    
+        
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="ag-pinned-right-header ag-hidden"
+                          role="presentation"
+                          style="width: 0px; min-width: 0px; max-width: 0px;"
+                        >
+                          <div
+                            aria-rowindex="1"
+                            class="ag-header-row ag-header-row-column"
+                            role="row"
+                            style="height: 40px; top: 0px; width: 0px;"
+                          />
+                        </div>
+                      </div>
+                      <!-- AG Pinned Top -->
+                      <div
+                        class="ag-floating-top ag-selectable"
+                        role="presentation"
+                        style="height: 0px; min-height: 0; display: none; overflow-y: hidden;"
+                      >
+                        <!-- AG Row Container topLeft -->
+                        <div
+                          class="ag-pinned-left-floating-top ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container topCenter -->
+                        <div
+                          class="ag-floating-top-viewport"
+                          role="presentation"
+                        >
+                          <div
+                            class="ag-floating-top-container"
+                            role="presentation"
+                            style="width: 1150px;"
+                          />
+                        </div>
+                        <!-- AG Row Container topRight -->
+                        <div
+                          class="ag-pinned-right-floating-top ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container topFullWidth -->
+                        <div
+                          class="ag-floating-top-full-width-container"
+                          role="presentation"
+                        />
+                      </div>
+                      <!-- AG Middle -->
+                      <div
+                        class="ag-body-viewport ag-row-no-animation ag-layout-normal ag-selectable"
+                        role="presentation"
+                      >
+                        <!-- AG Row Container left -->
+                        <div
+                          class="ag-pinned-left-cols-container ag-hidden"
+                          role="presentation"
+                          style="height: 1px;"
+                        />
+                        <!-- AG Row Container center -->
+                        <div
+                          class="ag-center-cols-clipper"
+                          role="presentation"
+                          style="height: 1px;"
+                        >
+                          <div
+                            class="ag-center-cols-viewport"
+                            role="presentation"
+                            style="height: 100%;"
+                          >
+                            <div
+                              class="ag-center-cols-container"
+                              role="presentation"
+                              style="height: 1px; width: 1150px;"
+                            />
+                          </div>
+                        </div>
+                        <!-- AG Row Container right -->
+                        <div
+                          class="ag-pinned-right-cols-container ag-hidden"
+                          role="presentation"
+                          style="height: 1px;"
+                        />
+                        <!-- AG Row Container fullWidth -->
+                        <div
+                          class="ag-full-width-container"
+                          role="presentation"
+                          style="height: 1px;"
+                        />
+                      </div>
+                      <!-- AG Sticky Top -->
+                      <div
+                        class="ag-sticky-top ag-selectable"
+                        role="presentation"
+                        style="height: 0px; top: 41px; width: 100%;"
+                      >
+                        <!-- AG Row Container stickyTopLeft -->
+                        <div
+                          class="ag-pinned-left-sticky-top ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container stickyTopCenter -->
+                        <div
+                          class="ag-sticky-top-viewport"
+                          role="presentation"
+                        >
+                          <div
+                            class="ag-sticky-top-container"
+                            role="presentation"
+                            style="width: 1150px;"
+                          />
+                        </div>
+                        <!-- AG Row Container stickyTopRight -->
+                        <div
+                          class="ag-pinned-right-sticky-top ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container stickyTopFullWidth -->
+                        <div
+                          class="ag-sticky-top-full-width-container"
+                          role="presentation"
+                        />
+                      </div>
+                      <!-- AG Pinned Bottom -->
+                      <div
+                        class="ag-floating-bottom ag-selectable"
+                        role="presentation"
+                        style="height: 0px; min-height: 0; display: none; overflow-y: hidden;"
+                      >
+                        <!-- AG Row Container bottomLeft -->
+                        <div
+                          class="ag-pinned-left-floating-bottom ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container bottomCenter -->
+                        <div
+                          class="ag-floating-bottom-viewport"
+                          role="presentation"
+                        >
+                          <div
+                            class="ag-floating-bottom-container"
+                            role="presentation"
+                            style="width: 1150px;"
+                          />
+                        </div>
+                        <!-- AG Row Container bottomRight -->
+                        <div
+                          class="ag-pinned-right-floating-bottom ag-hidden"
+                          role="presentation"
+                        />
+                        <!-- AG Row Container bottomFullWidth -->
+                        <div
+                          class="ag-floating-bottom-full-width-container"
+                          role="presentation"
+                        />
+                      </div>
+                      <!-- AG Fake Horizontal Scroll -->
+                      <div
+                        aria-hidden="true"
+                        class="ag-body-horizontal-scroll ag-hidden"
+                        style="height: 0px; max-height: 0px; min-height: 0px;"
+                      >
+                        
+            
+                        <div
+                          class="ag-horizontal-left-spacer"
+                          ref="eLeftSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+            
+                        <div
+                          class="ag-body-horizontal-scroll-viewport"
+                          ref="eViewport"
+                          style="height: 0px; max-height: 0px; min-height: 0px;"
+                        >
+                          
+                
+                          <div
+                            class="ag-body-horizontal-scroll-container"
+                            ref="eContainer"
+                            style="height: 0px; max-height: 0px; min-height: 0px; width: 1150px;"
+                          />
+                          
+            
+                        </div>
+                        
+            
+                        <div
+                          class="ag-horizontal-right-spacer"
+                          ref="eRightSpacer"
+                          style="width: 0px; max-width: 0px; min-width: 0px;"
+                        />
+                        
+        
+                      </div>
+                      <!-- AG Overlay Wrapper -->
+                      <div
+                        aria-hidden="true"
+                        class="ag-overlay"
+                      >
+                        
+            
+                        <div
+                          class="ag-overlay-panel"
+                        >
+                          
+                
+                          <div
+                            class="ag-overlay-wrapper ag-layout-normal ag-overlay-no-rows-wrapper"
+                            ref="eOverlayWrapper"
+                          >
+                            <span>
+                              There are no details found...
+                            </span>
+                          </div>
+                          
+            
+                        </div>
+                        
+        
+                      </div>
+                    </div>
+                    <div
+                      class="ag-tab-guard ag-tab-guard-bottom"
+                      role="presentation"
+                      tabindex="0"
+                    />
+                  </div>
+                  <div
+                    class="ag-paging-panel ag-unselectable ag-hidden"
+                    id="ag-3"
+                  >
+                    
+                
+                    <span
+                      class="ag-paging-row-summary-panel"
+                      role="status"
+                    >
+                      
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        id="ag-3-first-row"
+                        ref="lbFirstRowOnPage"
+                      />
+                      
+                    
+                      <span
+                        id="ag-3-to"
+                      >
+                        to
+                      </span>
+                      
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        id="ag-3-last-row"
+                        ref="lbLastRowOnPage"
+                      />
+                      
+                    
+                      <span
+                        id="ag-3-of"
+                      >
+                        of
+                      </span>
+                      
+                    
+                      <span
+                        class="ag-paging-row-summary-panel-number"
+                        id="ag-3-row-count"
+                        ref="lbRecordCount"
+                      />
+                      
+                
+                    </span>
+                    
+                
+                    <span
+                      class="ag-paging-page-summary-panel"
+                      role="presentation"
+                    >
+                      
+                    
+                      <div
+                        aria-label="First Page"
+                        class="ag-paging-button"
+                        ref="btFirst"
+                        role="button"
+                      >
+                        <span
+                          class="ag-icon ag-icon-first"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                      </div>
+                      
+                    
+                      <div
+                        aria-label="Previous Page"
+                        class="ag-paging-button"
+                        ref="btPrevious"
+                        role="button"
+                      >
+                        <span
+                          class="ag-icon ag-icon-previous"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                      </div>
+                      
+                    
+                      <span
+                        class="ag-paging-description"
+                        role="status"
+                      >
+                        
+                        
+                        <span
+                          id="ag-3-start-page"
+                        >
+                          Page
+                        </span>
+                        
+                        
+                        <span
+                          class="ag-paging-number"
+                          id="ag-3-start-page-number"
+                          ref="lbCurrent"
+                        />
+                        
+                        
+                        <span
+                          id="ag-3-of-page"
+                        >
+                          of
+                        </span>
+                        
+                        
+                        <span
+                          class="ag-paging-number"
+                          id="ag-3-of-page-number"
+                          ref="lbTotal"
+                        />
+                        
+                    
+                      </span>
+                      
+                    
+                      <div
+                        aria-label="Next Page"
+                        class="ag-paging-button"
+                        ref="btNext"
+                        role="button"
+                      >
+                        <span
+                          class="ag-icon ag-icon-next"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                      </div>
+                      
+                    
+                      <div
+                        aria-label="Last Page"
+                        class="ag-paging-button"
+                        ref="btLast"
+                        role="button"
+                      >
+                        <span
+                          class="ag-icon ag-icon-last"
+                          role="presentation"
+                          unselectable="on"
+                        />
+                      </div>
+                      
+                
+                    </span>
+                    
+            
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-container css-k8yruk-MuiGrid-root"
+            >
+              <div
+                style="display: flex; align-items: center;"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

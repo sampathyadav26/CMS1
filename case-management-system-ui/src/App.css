@@ -1,0 +1,62 @@
+.custom-textfield {
+  height: 5px !important;
+  /* width: px !important; */
+  /* border-radius: 7px;
+  border-width: 1px; */
+  padding: 2px !important;
+}
+
+.rs-input-group.rs-input-group-inside {
+  height: 30px;
+}
+
+.box {
+  margin-left: 20%;
+  height: 80%;
+}
+.box1 {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.ag-theme-alpine .ag-root-wrapper {
+  border: none !important;
+}
+
+.ag-theme-alpine .ag-header-container {
+  border-bottom: none !important;
+}
+.ag-theme-alpine .ag-row {
+  border-bottom: none !important;
+}
+.ag-theme-alpine .ag-header-cell,
+.ag-theme-alpine .ag-header-group-cell {
+  background-color: #e9eef4 !important;
+  color: #1b4f91 !important; /* Change text color to white for better readability */
+}
+.ag-theme-alpine .ag-root-wrapper {
+  border-radius: 10px; /* Adjust as needed */
+  overflow: hidden; /* This ensures inner parts do not overflow the rounded corners */
+}
+.ag-theme-alpine .ag-header-container {
+  border-bottom: none !important;
+}
+.ag-theme-alpine .ag-row {
+  border-bottom: none !important;
+}
+
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 61px;
+}
+
+.ag-theme-alpine .ag-body-viewport::-webkit-scrollbar-track {
+  background-color: #888;
+}
+.rs-picker-popup {
+  z-index: 9999 !important;
+}

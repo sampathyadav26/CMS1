@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render App container 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 sc-aXZVg kFNeUm css-1ps6pg7-MuiPaper-root"
+          style="height: 100vh;"
+        >
+          <div
+            class="sc-gEvEer eyhQuh"
+          >
+            <div
+              class="sc-eqUAAy TknXt"
+              style="display: flex; align-items: center;"
+            >
+              <div
+                class="sc-fqkvVR eijmdp"
+              >
+                <img
+                  alt="Logo"
+                  src="CMS_logo.png"
+                  style="height: 60px; width: 60px; margin-right: 5px;"
+                />
+                <img
+                  alt="LogoShadow"
+                  id="shawdow"
+                  src="CMS_logo_shadow.png"
+                  style="height: 60px; width: 60px;"
+                />
+              </div>
+              <div
+                class="sc-dcJsrY iyNfke"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-1ewk6ns-MuiTypography-root"
+                >
+                  Case Management System
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 MuiTypography-alignLeft css-1jo1j2q-MuiTypography-root"
+                >
+                  Navigating Challenges, Building Solutions
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-iGgWBj dyfnJm MuiBox-root css-0"
+          >
+            <div
+              class="box1 MuiBox-root css-0"
+            >
+              <h4
+                class="MuiTypography-root MuiTypography-h4 css-zij4st-MuiTypography-root"
+                style="font-family: Inter; font-size: 20px; font-weight: 500; line-height: 24.2px; letter-spacing: 0em; text-align: left;"
+              >
+                Welcome !
+              </h4>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1vw91mc-MuiTypography-root"
+              >
+                User ID*
+              </p>
+              <div
+                class="MuiFormControl-root MuiTextField-root custom-textfield css-1js2rtn-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-eof58q-MuiTypography-root"
+              >
+                Password*
+              </p>
+              <div
+                class="MuiFormControl-root MuiTextField-root custom-textfield css-8zg2bs-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                    id="password"
+                    name="password"
+                    placeholder="*******"
+                    type="password"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                style="margin-top: 4%;"
+              >
+                <a
+                  href="/cmsapp/forgotPasswordPage"
+                  style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left;"
+                  sx="[object Object]"
+                >
+                  Forgot password?
+                </a>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-wgejo3-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="submit"
+                >
+                  Login
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+              >
+                <a
+                  href="/cmsapp/register"
+                  sx="[object Object]"
+                >
+                  <button
+                    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-1ovj7jt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Sign up
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 sc-aXZVg kFNeUm css-1ps6pg7-MuiPaper-root"
+        style="height: 100vh;"
+      >
+        <div
+          class="sc-gEvEer eyhQuh"
+        >
+          <div
+            class="sc-eqUAAy TknXt"
+            style="display: flex; align-items: center;"
+          >
+            <div
+              class="sc-fqkvVR eijmdp"
+            >
+              <img
+                alt="Logo"
+                src="CMS_logo.png"
+                style="height: 60px; width: 60px; margin-right: 5px;"
+              />
+              <img
+                alt="LogoShadow"
+                id="shawdow"
+                src="CMS_logo_shadow.png"
+                style="height: 60px; width: 60px;"
+              />
+            </div>
+            <div
+              class="sc-dcJsrY iyNfke"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter css-1ewk6ns-MuiTypography-root"
+              >
+                Case Management System
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-alignLeft css-1jo1j2q-MuiTypography-root"
+              >
+                Navigating Challenges, Building Solutions
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-iGgWBj dyfnJm MuiBox-root css-0"
+        >
+          <div
+            class="box1 MuiBox-root css-0"
+          >
+            <h4
+              class="MuiTypography-root MuiTypography-h4 css-zij4st-MuiTypography-root"
+              style="font-family: Inter; font-size: 20px; font-weight: 500; line-height: 24.2px; letter-spacing: 0em; text-align: left;"
+            >
+              Welcome !
+            </h4>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1vw91mc-MuiTypography-root"
+            >
+              User ID*
+            </p>
+            <div
+              class="MuiFormControl-root MuiTextField-root custom-textfield css-1js2rtn-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="text"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-ihdtdm"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-eof58q-MuiTypography-root"
+            >
+              Password*
+            </p>
+            <div
+              class="MuiFormControl-root MuiTextField-root custom-textfield css-8zg2bs-MuiFormControl-root-MuiTextField-root"
+            >
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+              >
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                  id="password"
+                  name="password"
+                  placeholder="*******"
+                  type="password"
+                  value=""
+                />
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-ihdtdm"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root css-vj1n65-MuiGrid-root"
+              style="margin-top: 4%;"
+            >
+              <a
+                href="/cmsapp/forgotPasswordPage"
+                style="font-family: Inter; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0em; text-align: left;"
+                sx="[object Object]"
+              >
+                Forgot password?
+              </a>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-wgejo3-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="submit"
+              >
+                Login
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+            >
+              <a
+                href="/cmsapp/register"
+                sx="[object Object]"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-1ovj7jt-MuiButtonBase-root-MuiButton-root"
+                  tabindex="0"
+                  type="button"
+                >
+                  Sign up
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
