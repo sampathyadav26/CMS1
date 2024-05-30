@@ -1,0 +1,54 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: CMS-API-GATEWAY-SERVICE
+  cloud:
+    gateway:
+      global-cors:
+        add-to-simple-url-handler-mapping: true
+        cors-configurations:
+          '[/**]':
+            allowedHeaders: "*"
+            allowedMethods: "GET,POST,PUT,DELETE"
+            allowedOrigins: http://192.168.97.41:9090,http://localhost:9090
+
+      routes:
+        - id: user-registration
+          uri:  http://192.168.97.41:8085
+          predicates:
+            - Path=/user/**
+
+        - id: user-login
+          uri: http://192.168.97.41:8087
+          predicates:
+            - Path=/userlogin/**
+
+        - id: cms-agent-note
+          uri: http://192.168.97.41:8083
+          predicates:
+            - Path=/agentnote/**
+
+        - id: cms-audit-event
+          uri: http://192.168.97.41:8092
+          predicates:
+            - Path=/auditevent/**
+
+        - id: cms-case-details
+          uri: http://192.168.97.41:8082
+          predicates:
+            - Path=/case/**
+
+        - id: cms-customer
+          uri: http://192.168.97.41:8086
+          predicates:
+            - Path=/customer/**
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://192.168.97.41:8761/eureka
